@@ -1,1 +1,1 @@
-export interface IValidationError {    field: string    message: string}export interface IErrorMessages {    errorMessages: IValidationError[]}
+export interface IValidationError {    field: string    message: string}export interface IErrorMessages {    errorsMessages: IValidationError[]}
